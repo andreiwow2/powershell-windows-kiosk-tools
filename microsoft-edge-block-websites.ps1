@@ -1,3 +1,5 @@
+Add-Type -AssemblyName System.Windows.Forms
+
 $blockListReg = @{
     regPath = "HKLM:\Software\Policies\Microsoft\Edge\URLBlocklist"
     regName = "1"
